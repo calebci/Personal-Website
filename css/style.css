@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS';
+}
+
+header {
+    background: navy
+}
+
+.background {
+    height: 200vh;
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-color:navy;
+}
+
+.nav {
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    width: 500px;
+    color:aliceblue;
+    text-transform: uppercase;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    text-transform: uppercase;
+}
+
+.nav ul li::after {
+    content: '';
+    height: 5px;
+    width: 0%;
+    background: purple;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.nav ul li:hover::after {
+    width: 100%;
+}
+
+.picture {
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 30%;
+}
+
+.content {
+    color:aliceblue;
+    font-size: large;
+    float: right;
+    margin: 50px;
+}
+
+.content p {
+    margin: 20px;
+    line-height: 30px;
+}
+
+.content a {
+    color:aliceblue;
+}
+
+.quals {
+    color:aliceblue;
+    font-size: larger;
+    margin: auto;
+    padding: 50px;
+}
+
+.quals p {
+    line-height: 30px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+iframe {
+    margin: 50px;
+    width: 40%;
+    height: 50%;
+    float: right;
+}
+
+.portfolio {
+    color:aliceblue;
+    font-size: large;
+    float: left;
+    margin: 50px;
+    margin-left: 70px;
+}
+
+.portfolio a {
+    color: aliceblue;
+}
+
+.portfolio ul {
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+h2 {
+    width: 600px;
+    color:aliceblue;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+img {
+    width: 30%;
+    padding: 50px;
+    align-content: center;
+}
+
+.service {
+    color:aliceblue;
+    font-size: x-large;
+    float: left;
+    margin: 50px;
+    margin-left: 70px;
+}
+
+.service p {
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.service a {
+    color:aliceblue;
+}
