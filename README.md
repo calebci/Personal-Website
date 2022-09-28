@@ -1,2 +1,6 @@
 # Personal-Website
-Personal Website just to mess with Javascript HTML CSS
+
+Created originally for CSCE315
+Now used to mess around with Javascript HTML CSS
+
+Hope it doesnt look too terrible
