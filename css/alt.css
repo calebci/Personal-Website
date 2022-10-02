@@ -10,7 +10,7 @@ header {
 
 .background {
     height: 200vh;
-    background-image: url(alt.jpg);
+    background-image: url(../img/alt.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: repeat-y;
